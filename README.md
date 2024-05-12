@@ -52,4 +52,19 @@ By utilizing this dataset, several important things that can be explored are:
 34. 'Growth Factor of New Cases': Less than 1 means decreased, 1 means none change, more than 1 means increase (formula = Today New Cases / Yesterday New Cases)
 35. 'Growth Factor of New Deaths': Less than 1 means decreased, 1 means none change, more than 1 means increase (formula = Today New Deaths / Yesterday New Deaths)
 
+# **DATA PREPARATION**
+Python Version: 3.11.6
+Packages:
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Feature Engine
+  
 # DATA CLEANSING
+The processes carried out include:
+- Drop unneeded columns. The fields that will be dropped are 'Location ISO Code', 'City or Regency', 'Country', 'Continent', 'Time Zone', 'Special Status', 'Total Cities', 'Total Districts', 'Total Regencies', 'Total Urban Villages', 'Total Rural Villages', 'Area (km2)', 'New Cases per Million', 'Total Cases per Million', 'New Deaths per Million', 'Total Deaths per Million', 'Growth Factor of New Cases', and 'Growth Factor of New Deaths'.
+- Change the 'Date' data type to a datetime data type to avoid errors in time-series sequencing in visualizations.
+After cleansing, the dataset now has 20 columns.
+
+#
