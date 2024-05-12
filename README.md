@@ -67,4 +67,36 @@ The processes carried out include:
 - Change the 'Date' data type to a datetime data type to avoid errors in time-series sequencing in visualizations.
 After cleansing, the dataset now has 20 columns.
 
-#
+# EXPLORATORY DATA ANALYSIS
+## 1 : On what date was the highest number of new COVID 19 cases reported in a single day?
+![image](https://github.com/alnimashakiya/Project_CRISP-DM_Covid19/assets/165742697/f1eabe8e-4cd5-41fa-b47b-f5129a91af4e)
+Based on the visualization above, it can be observed that the growth in cases began around mid-February 2022, specifically on February 15th. There was a significant spike on February 16th, 2022, where the highest number of new COVID-19 cases in a single day was recorded, totaling **64,718** cases. Subsequently, there was a decline from February 17th to February 22nd, followed by an increase again on February 23rd. Then, on February 24th, the number of cases decreased once more.
+
+From the table and visualization data above, it is evident that the top 8 dates with the highest number of COVID-19 cases per day are in February 2022.
+
+## 2 : Which province has the highest number of new cases per day?
+![image](https://github.com/alnimashakiya/Project_CRISP-DM_Covid19/assets/165742697/b9a6263b-bfb4-46a0-b75c-bc370e9ffe4d)
+Based on the visualization above, it can be seen that DKI Jakarta Province has the highest total cases per day of 1,412,474 cases, followed by the Provinces of West Java, Central Java, East Java, and Banten.
+
+## 3 : Which island has the highest number of COVID 19 cases per day?
+![image](https://github.com/alnimashakiya/Project_CRISP-DM_Covid19/assets/165742697/89fa8f92-6744-4982-8994-3306901e0f24)
+Based on the visualization above, the highest number of COVID-19 cases found per day is centered on the island of Java with the number of cases penetrating up to 4 million cases per day. The comparison looks very striking when compared to the total discovery of COVID 19 cases per day on other islands. This shows that the results of the visualization above are in accordance with the previous analysis where the 5 provinces with the most total COVID-19 cases found per day are on the island of Java.
+
+## 4: Which province has the highest daily cure rate?
+![image](https://github.com/alnimashakiya/Project_CRISP-DM_Covid19/assets/165742697/6893eb1e-fed5-4522-b653-f95df9df1c69)
+Based on the visualization above, it can be seen that DKI Jakarta province excels in the daily recovery rate of 1,386,059, which is almost nine times that of Riau province which occupies the bottom position in the number of COVID 19 cases recovered per day which is 147,972.
+
+## 5: How Correlates Between New Deaths and New Recovery?
+![image](https://github.com/alnimashakiya/Project_CRISP-DM_Covid19/assets/165742697/2231a3dd-ea14-42e7-af2c-ea37fedc960a)
+The graph represents data related to a disease, namely COVID-19, and shows how these two variables are related to each other. Scattered blue dots show daily data. In the lower left corner, there are many points with low numbers of deaths and recoveries. However, the more new deaths, the more new recoveries. so it can be concluded that there is a positive correlation between death and recovery. As the outbreak spreads, both deaths and recoveries increase. However, variability remains, and further action is needed to manage this outbreak.
+
+# SUMMARY
+- The visualization indicates a surge in COVID-19 cases starting from mid-February 2022, with a peak on February 16th, recording 64,718 cases. Subsequent days saw fluctuations but remained high.
+- In terms of provinces, DKI Jakarta leads with 1,412,474 total daily cases, followed by West Java, Central Java, East Java, and Banten.
+- The concentration of cases on Java, exceeding 4 million per day, is evident, aligning with previous analyses showing Java's prominence.
+- DKI Jakarta demonstrates a significantly higher daily recovery rate compared to other provinces, with 1,386,059 recoveries, emphasizing its superior healthcare infrastructure.
+- so it can be concluded that there is a positive correlation between death and recovery. As the outbreak spreads, both deaths and recoveries increase. However, variability remains, and further action is needed to manage this outbreak.
+
+
+
+
